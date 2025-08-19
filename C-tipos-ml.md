@@ -24,7 +24,8 @@ En este tipo de aprendizaje, los modelos procesan datos sin etiquetas, identific
 
 El aprendizaje por refuerzo entrena un modelo (agente) a partir de la interacción con un entorno. El agente recibe recompensas o penalizaciones por sus decisiones, y ajusta su estrategia hasta optimizar su desempeño (Coursera, 2023).
 
-- **Ejemplo en Colombia:** En el desarrollo de videojuegos, los agentes basados en refuerzo aprenden a superar niveles o competir contra jugadores humanos, mejorando con cada experiencia.
+- **Ejemplo general:** En el desarrollo de videojuegos, los agentes basados en refuerzo aprenden a superar niveles o competir contra jugadores humanos, mejorando con cada experiencia.  
+  *(Este ejemplo se presenta de manera general y no específica de Colombia.)*
 
 - **Ventajas:** Ideal para problemas de toma de decisiones secuenciales, como robótica o control de procesos.  
 - **Limitaciones:** El entrenamiento puede ser lento y requerir gran capacidad computacional (Google Cloud, s/f).
@@ -37,7 +38,7 @@ Los tres tipos de Machine Learning cumplen funciones complementarias:
 - No supervisado para explorar y descubrir patrones ocultos.  
 - Por refuerzo para decisiones en entornos dinámicos.
 
-Su aplicación conjunta está transformando sectores clave en Colombia como la banca, el comercio y la industria del entretenimiento, evidenciando cómo la teoría se traduce en soluciones prácticas que mejoran la vida cotidiana.
+Su aplicación conjunta está transformando sectores clave, como la banca y el comercio en Colombia, evidenciando cómo la teoría se traduce en soluciones prácticas que mejoran la vida cotidiana.
 
 ## Referencias
 
