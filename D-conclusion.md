@@ -1,5 +1,7 @@
 # D) Conclusiones y Síntesis
 
+**Resumen:** Este documento presenta las conclusiones más importantes sobre IA y ML, sus diferencias, tipos, aplicaciones en Colombia y perspectivas futuras.
+
 La investigación realizada sobre la Inteligencia Artificial (IA) y el Machine Learning (ML) ha permitido profundizar en conceptos fundamentales y sus aplicaciones prácticas, así como en las diferencias clave entre ambos. A continuación, se presentan las conclusiones más relevantes:
 
 ## 1. Comprensión de IA y ML
