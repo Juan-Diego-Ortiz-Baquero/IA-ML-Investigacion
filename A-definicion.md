@@ -6,6 +6,9 @@ Dentro de este campo se encuentra el **Machine Learning (ML)**, o aprendizaje au
 
 En síntesis, la IA es el marco general que busca dotar a las máquinas de comportamientos inteligentes, mientras que el ML es uno de los caminos más utilizados para lograrlo, permitiendo que los sistemas mejoren progresivamente a medida que procesan más información (Amazon Web Services, s. f.; Google Cloud, s. f.-b).
 
+En la vida diaria, podemos notar la diferencia entre IA y ML en aplicaciones simples: cuando pedimos una canción a Spotify y este adapta la lista a nuestro gusto, está usando IA; pero cuando con el tiempo la aplicación aprende de nuestras elecciones para hacer recomendaciones cada vez más precisas, eso es ML en acción.
+
+
 ---
 
 ## 📚 Referencias
