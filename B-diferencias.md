@@ -17,6 +17,17 @@ La IA puede utilizar enfoques diversos como lógica simbólica, sistemas experto
 
 (*Nota*: estos ejemplos ilustran cómo se aplican de forma práctica IA y ML en contextos cotidianos en Colombia).
 
+### 4. Profundización en la relación entre IA y ML  
+Aunque el Machine Learning es la rama más popular de la IA en la actualidad, no es la única. Existen otras áreas como el razonamiento lógico, los sistemas expertos y el procesamiento de lenguaje natural que complementan este campo. Esta distinción es clave, ya que muchas veces en la vida cotidiana se confunden IA y ML como si fueran lo mismo, cuando en realidad una contiene a la otra.
+
+---
+
+### 5. Ejemplos ampliados en el contexto colombiano  
+- **Cine Colombia**: El sistema que analiza tus compras previas en la app y te sugiere combos personalizados usa ML. En cambio, un sistema integral que decida qué películas llevar a cada ciudad según la demanda y la logística corresponde a un uso de IA.  
+- **Transporte**: Aplicaciones como Beat o Didi emplean ML para estimar tarifas dinámicas. Pero un sistema que rediseñe rutas en tiempo real considerando tráfico, clima y eventos masivos, es un ejemplo de IA aplicada.  
+- **Sector salud**: En hospitales colombianos se exploran modelos de ML para identificar riesgos cardiovasculares a partir de historiales médicos. Mientras que un asistente que combine diagnóstico, tratamiento y priorización de pacientes sería un ejemplo más amplio de IA.
+
+
 ---
 
 ##  Referencias (APA 7)
