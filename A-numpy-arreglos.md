@@ -1,8 +1,21 @@
 # NumPy – Creación y Manipulación de Arreglos
 
+## Introducción
+
+NumPy es la biblioteca principal para trabajar con arrays en Python. Usar arrays (ndarrays) permite procesar datos de forma eficiente y realizar cálculos matemáticos rápidamente, algo fundamental en ciencia de datos y análisis numérico.
+
+A continuación explico cómo crear arrays, cambiarlos de forma (reshape), concatenarlos y realizar operaciones básicas, con ejemplos probados en Google Colab. En cada sección agrego una breve idea de para qué sirve cada operación.
+
+---
+
 ## 1. Creación de arrays
 
+> **¿Para qué sirve?**  
+> Los arrays son la base para procesar datos en NumPy. Puedes crearlos a partir de listas, tuplas o usando funciones de la propia librería para generar datos automáticamente.
+
 ### Desde listas o tuplas
+
+Convierte listas y tuplas de Python en arrays NumPy. Muy útil para comenzar a trabajar con tus propios datos.
 
 ```python
 import numpy as np
@@ -21,6 +34,8 @@ print(a2)
 ```
 
 ### Con funciones de NumPy
+
+NumPy ofrece varias funciones para crear arrays rápidamente, ideales para pruebas, inicialización y generación de datos sintéticos.
 
 ```python
 # arange: secuencia de números
@@ -44,7 +59,8 @@ print(ones)
 
 ## 2. Cambiar la forma de un array (reshape)
 
-A veces es necesario reorganizar los datos, por ejemplo, convertir una lista en matriz.
+> **¿Para qué sirve?**  
+> Muchas veces necesitas reorganizar tus datos para adaptarlos a modelos, gráficos o análisis. Con `reshape` puedes cambiar la estructura del array sin perder la información.
 
 ```python
 arr = np.arange(6)
@@ -58,6 +74,9 @@ print(reshaped)
 ---
 
 ## 3. Concatenar arrays
+
+> **¿Para qué sirve?**  
+> Unir arrays te permite agrupar información, combinar resultados o construir estructuras más grandes a partir de datos pequeños.
 
 Unir arrays puede hacerse horizontal o verticalmente.
 
@@ -97,6 +116,9 @@ print(xy)
 
 ## 4. Operaciones básicas con arrays
 
+> **¿Para qué sirve?**  
+> Las operaciones matemáticas sobre arrays son esenciales para análisis, procesamiento de señales, estadística y cualquier cálculo sobre datos. NumPy permite operar sobre todos los elementos sin necesidad de escribir bucles.
+
 Las operaciones matemáticas se aplican a todos los elementos. No es necesario recorrer el array con for.
 
 ```python
@@ -128,5 +150,7 @@ print(a * b)        # [10 40 90]
 
 ## Fuentes
 
-- [NumPy Documentation](https://numpy.org/doc/stable/)
-- Ejecuciones propias en Google Colab
+- Array creation — NumPy v2.3 manual. (s/f). Numpy.org. Recuperado el 26 de agosto de 2025, de https://numpy.org/doc/stable/user/basics.creation.html
+- Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/1y9wOg9nnFlTXrY3lGtamlAhoPrmmGye0?authuser=1 [Ejecuciones propias en Google Colab] 
+- Sherrill, D. [@CodeWithDerrick]. (s/f). Introduction to NumPy arrays for beginners - learn NumPy series [[Object Object]]. Youtube. Recuperado el 26 de agosto de 2025, de https://www.youtube.com/watch?v=9fcTq8PDWWA
+
