@@ -1,1 +1,129 @@
 
+# Definición de Inteligencia Artificial (IA) y Machine Learning (ML)
+
+La **Inteligencia Artificial (IA)** es un campo de la informática que busca crear sistemas capaces de imitar ciertas capacidades humanas como el razonamiento, la resolución de problemas, la percepción y el aprendizaje. Hoy en día podemos ver aplicaciones de la IA en asistentes virtuales como Alexa o Siri, en los sistemas de recomendación de plataformas como Netflix o Spotify, e incluso en el análisis de datos para la toma de decisiones empresariales (Google Cloud, s. f.-a).
+
+Dentro de este campo se encuentra el **Machine Learning (ML)**, o aprendizaje automático, que es una de las ramas más importantes de la IA. El ML se centra en el desarrollo de algoritmos y modelos que permiten que una máquina aprenda a partir de datos, sin necesidad de ser programada de manera explícita para cada tarea. Por ejemplo, los filtros de correo electrónico que identifican mensajes de spam o los sistemas de detección de fraude en los bancos funcionan gracias al aprendizaje automático (IBM, 2025).
+
+En síntesis, la IA es el marco general que busca dotar a las máquinas de comportamientos inteligentes, mientras que el ML es uno de los caminos más utilizados para lograrlo, permitiendo que los sistemas mejoren progresivamente a medida que procesan más información (Amazon Web Services, s. f.; Google Cloud, s. f.-b).
+
+En la vida diaria, podemos notar la diferencia entre IA y ML en aplicaciones simples: cuando pedimos una canción a Spotify y este adapta la lista a nuestro gusto, está usando IA; pero cuando con el tiempo la aplicación aprende de nuestras elecciones para hacer recomendaciones cada vez más precisas, eso es ML en acción.
+
+
+# Diferencias clave entre Inteligencia Artificial (IA) y Machine Learning (ML)
+
+### 1. Alcance y relación conceptual  
+La **Inteligencia Artificial (IA)** es un campo amplio enfocado en desarrollar sistemas capaces de realizar tareas que típicamente requieren inteligencia humana, como razonamiento, reconocimiento del lenguaje o visión artificial. En contraste, el **Machine Learning (ML)** es una rama de la IA que se centra en diseñar algoritmos capaces de aprender de los datos y mejorar su desempeño sin una programación explícita sobre cada tarea.
+
+Una forma útil de visualizarlo es pensar en un paraguas: la IA es el paraguas general, y el ML es una de las herramientas dentro de ese paraguas.
+
+---
+
+### 2. Enfoque y técnicas utilizadas  
+La IA puede utilizar enfoques diversos como lógica simbólica, sistemas expertos o redes neuronales para emular comportamientos inteligentes. Por su parte, el ML depende de datos (etiquetados o no) y de algoritmos de entrenamiento para aprender patrones y generar predicciones.
+---
+
+### 3. Ejemplos de uso cotidiano en Colombia  
+- **IA**: Chatbots bancarios (como los de Bancolombia o Davivienda) que comprenden y responden preguntas en lenguaje natural.  
+- **ML**: Plataformas de envío como Rappi que personalizan sugerencias de restaurantes basándose en tu historial de pedidos.
+
+(*Nota*: estos ejemplos ilustran cómo se aplican de forma práctica IA y ML en contextos cotidianos en Colombia).
+
+### 4. Profundización en la relación entre IA y ML  
+Aunque el Machine Learning es la rama más popular de la IA en la actualidad, no es la única. Existen otras áreas como el razonamiento lógico, los sistemas expertos y el procesamiento de lenguaje natural que complementan este campo. Esta distinción es clave, ya que muchas veces en la vida cotidiana se confunden IA y ML como si fueran lo mismo, cuando en realidad una contiene a la otra.
+
+---
+
+### 5. Ejemplos ampliados en el contexto colombiano  
+- **Cine Colombia**: El sistema que analiza tus compras previas en la app y te sugiere combos personalizados usa ML. En cambio, un sistema integral que decida qué películas llevar a cada ciudad según la demanda y la logística corresponde a un uso de IA.  
+- **Transporte**: Aplicaciones como Beat o Didi emplean ML para estimar tarifas dinámicas. Pero un sistema que rediseñe rutas en tiempo real considerando tráfico, clima y eventos masivos, es un ejemplo de IA aplicada.  
+- **Sector salud**: En hospitales colombianos se exploran modelos de ML para identificar riesgos cardiovasculares a partir de historiales médicos. Mientras que un asistente que combine diagnóstico, tratamiento y priorización de pacientes sería un ejemplo más amplio de IA.
+
+# C) Tipos de Machine Learning
+
+El Machine Learning (ML) se clasifica en tres tipos fundamentales: aprendizaje supervisado, no supervisado y por refuerzo. Cada uno se caracteriza por la forma en que los algoritmos procesan los datos y aprenden de ellos (Coursera, 2023; IBM, 2025).
+
+## 1. Aprendizaje Supervisado
+
+El aprendizaje supervisado se basa en entrenar modelos con datos etiquetados, es decir, entradas acompañadas de las respuestas correctas. Su propósito es predecir valores o clasificar información a partir de ejemplos previos (Google Cloud, s/f).
+
+- **Ejemplo en Colombia:** En el sector financiero, bancos utilizan algoritmos supervisados para detectar fraudes en transacciones electrónicas. Al modelo se le muestran ejemplos de operaciones legítimas y fraudulentas, lo que le permite identificar patrones de riesgo en nuevas transacciones.
+
+- **Ventajas:** Precisión elevada en tareas específicas como clasificación o regresión.  
+- **Limitaciones:** Requiere grandes volúmenes de datos previamente clasificados, lo cual puede ser costoso en tiempo y recursos (La Ibero, 2024).
+
+## 2. Aprendizaje No Supervisado
+
+En este tipo de aprendizaje, los modelos procesan datos sin etiquetas, identificando patrones, agrupaciones o relaciones ocultas (Gob.es, s/f). Se utiliza principalmente en análisis exploratorio de datos y segmentación.
+
+- **Ejemplo en Colombia:** En cadenas de supermercados, el aprendizaje no supervisado permite segmentar clientes de acuerdo con sus hábitos de compra. Esto facilita diseñar campañas de mercadeo personalizadas y optimizar inventarios.
+
+- **Ventajas:** Descubre estructuras desconocidas y relaciones ocultas en los datos.  
+- **Limitaciones:** Sus resultados pueden ser ambiguos y requieren interpretación experta (IBM, 2025).
+
+## 3. Aprendizaje por Refuerzo
+
+El aprendizaje por refuerzo entrena un modelo (agente) a partir de la interacción con un entorno. El agente recibe recompensas o penalizaciones por sus decisiones, y ajusta su estrategia hasta optimizar su desempeño (Coursera, 2023).
+
+- **Ejemplo general:** En el desarrollo de videojuegos, los agentes basados en refuerzo aprenden a superar niveles o competir contra jugadores humanos, mejorando con cada experiencia.  
+  *(Este ejemplo se presenta de manera general y no específica de Colombia.)*
+
+- **Ventajas:** Ideal para problemas de toma de decisiones secuenciales, como robótica o control de procesos.  
+- **Limitaciones:** El entrenamiento puede ser lento y requerir gran capacidad computacional (Google Cloud, s/f).
+
+## Síntesis
+
+Los tres tipos de Machine Learning cumplen funciones complementarias:
+
+- Supervisado para predicciones precisas cuando hay datos etiquetados.  
+- No supervisado para explorar y descubrir patrones ocultos.  
+- Por refuerzo para decisiones en entornos dinámicos.
+
+Su aplicación conjunta está transformando sectores clave, como la banca y el comercio en Colombia, evidenciando cómo la teoría se traduce en soluciones prácticas que mejoran la vida cotidiana.
+
+# D) Conclusiones y Síntesis
+
+**Resumen:** Este documento presenta las conclusiones más importantes sobre IA y ML, sus diferencias, tipos, aplicaciones en Colombia y perspectivas futuras.
+
+La investigación realizada sobre la Inteligencia Artificial (IA) y el Machine Learning (ML) ha permitido profundizar en conceptos fundamentales y sus aplicaciones prácticas, así como en las diferencias clave entre ambos. A continuación, se presentan las conclusiones más relevantes:
+
+## 1. Comprensión de IA y ML
+
+La **IA** se define como un campo amplio que busca emular capacidades humanas en máquinas, mientras que el **ML** es una subdisciplina que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender de los datos. Esta distinción es crucial, ya que muchas aplicaciones modernas de tecnología se basan en la intersección de ambos campos, pero no son sinónimos.
+
+## 2. Diferencias Clave
+
+Las diferencias entre IA y ML se pueden resumir en varios aspectos:
+
+- **Alcance:** La IA abarca un espectro más amplio de técnicas y enfoques, mientras que el ML se enfoca específicamente en el aprendizaje a partir de datos.  
+- **Técnicas:** La IA puede incluir métodos como lógica simbólica y sistemas expertos, mientras que el ML se basa en algoritmos que requieren datos para aprender.  
+- **Aplicaciones:** Ejemplos cotidianos en Colombia, como chatbots y sistemas de recomendación, ilustran cómo se implementan tanto la IA como el ML en la vida diaria.
+
+## 3. Tipos de Machine Learning
+
+La clasificación del ML en supervisado, no supervisado y por refuerzo proporciona un marco útil para entender cómo se aplican estos métodos en diferentes contextos:
+
+- **Supervisado:** Ideal para tareas donde se dispone de datos etiquetados, como la detección de fraudes en el sector financiero.  
+- **No Supervisado:** Útil para descubrir patrones ocultos en datos no etiquetados, como la segmentación de clientes en supermercados.  
+- **Por Refuerzo:** Se aplica en entornos dinámicos donde un agente aprende a través de la interacción, como en el desarrollo de videojuegos.
+
+## 4. Impacto en Sectores Clave
+
+La aplicación de **IA y ML** está transformando sectores como la banca, el comercio y la salud en Colombia. Las tecnologías emergentes están mejorando la eficiencia operativa, personalizando la experiencia del cliente y optimizando la toma de decisiones. Esto no solo beneficia a las empresas, sino que también mejora la calidad de vida de los usuarios al ofrecer servicios más adaptados a sus necesidades.
+
+## 5. Futuro de IA y ML
+
+A medida que la tecnología avanza, se espera que la **IA y el ML** continúen evolucionando, integrándose en más aspectos de la vida cotidiana. La investigación y el desarrollo en estos campos son fundamentales para abordar desafíos complejos, como el cambio climático, la salud pública y la educación. La colaboración interdisciplinaria será clave para maximizar su impacto.
+
+## 6. Referencias
+
+- Amazon Web Services. (s. f.). Diferencia entre inteligencia artificial y machine learning. Recuperado el 19 de agosto de 2025, de [https://aws.amazon.com/es/compare/the-difference-between-artificial-intelligence-and-machine-learning](https://aws.amazon.com/es/compare/the-difference-between-artificial-intelligence-and-machine-learning)  
+- Coursera. (2023, enero 30). 3 tipos de machine learning que debes conocer. Recuperado de [https://www.coursera.org/mx/articles/types-of-machine-learning](https://www.coursera.org/mx/articles/types-of-machine-learning)  
+- Google Cloud. (s. f.-a). IA vs. aprendizaje automático: ¿En qué se diferencian? Recuperado el 19 de agosto de 2025, de [https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning?hl=es-419](https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning?hl=es-419)  
+- Google Cloud. (s. f.-b). ¿Qué es la inteligencia artificial o IA? Recuperado el 19 de agosto de 2025, de [https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419](https://cloud.google.com/learn/what-is-artificial-intelligence?hl=es-419)  
+- IBM. (2025, junio 27). ¿Qué es machine learning? Recuperado de [https://www.ibm.com/mx-es/think/topics/machine-learning](https://www.ibm.com/mx-es/think/topics/machine-learning)  
+- La Ibero. (2024, julio 30). Técnicas de Machine Learning: Clasificación, Regresión y Clustering. Recuperado de [https://www.ibero.edu.co/blog/articulos/tecnicas-de-machine-learning](https://www.ibero.edu.co/blog/articulos/tecnicas-de-machine-learning)  
+- UNIE Universidad. (2023, noviembre 17). ¿Cuál es la verdadera diferencia entre Inteligencia Artificial y Machine Learning? UNIE. Recuperado de [https://www.universidadunie.com/blog/diferencia-ia-y-machine-learning](https://www.universidadunie.com/blog/diferencia-ia-y-machine-learning)  
+- Edu.pe. (s. f.-b). Machine Learning vs Inteligencia Artificial: diferencias. Recuperado el 19 de agosto de 2025, de [https://postgrado.ucsp.edu.pe/articulos/machine-learning-inteligencia-artificial-diferencias](https://postgrado.ucsp.edu.pe/articulos/machine-learning-inteligencia-artificial-diferencias)  
+- Gob.es. (s/f). Recuperado el 19 de agosto de 2025, de [https://datos.gob.es/es/blog/como-aprenden-las-maquinas-machine-learning-y-sus-diferentes-tipos](https://datos.gob.es/es/blog/como-aprenden-las-maquinas-machine-learning-y-sus-diferentes-tipos)
+
