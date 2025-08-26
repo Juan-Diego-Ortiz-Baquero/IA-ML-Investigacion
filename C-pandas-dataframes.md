@@ -1,5 +1,11 @@
 # Pandas - Creación y manipulación de DataFrames y Series
 
+## Introducción
+
+Pandas es la biblioteca más utilizada para manejo y análisis de datos en Python. Sus dos estructuras principales son `DataFrames` (tabla de datos) y `Series` archivos, seleccionar columnas y filas, y trabajar fácilmente con diferentes tipos de datos.
+
+---
+
 ## 1. Crear DataFrames y Series
 
 ## Crear un DataFrame desde un diccionario o lista
