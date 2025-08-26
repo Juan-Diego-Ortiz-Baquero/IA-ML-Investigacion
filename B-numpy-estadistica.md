@@ -1,5 +1,8 @@
 # NumPy – Operaciones estadísticas y funciones avanzadas
 
+## Introducción
+
+NumPy no solo sirve para crear arrays y hacer operaciones básicas, también incluye muchas funciones estadísticas, de generación de datos y de álgebra lineal. Estas funciones son esenciales para análisis de datos y cálculos científicos, ya que permiten obtener información resumida, generar datos sintéticos y resolver problemas matemáticos complejos de forma eficiente.
 
 ## 1. Operaciones estadísticas básicas
 
