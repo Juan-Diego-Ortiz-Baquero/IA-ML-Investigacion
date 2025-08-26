@@ -1,6 +1,13 @@
 # Pandas - Operaciones avanzada en DataFrames
 
+## Introducción
+
+Además de las funciones básicas, Pandas permite realizar operaciones avanzadas sobre DataFrames para analizar y transformar datos de manera eficiente. Se muenstran ejemplos comunes y útiles para filtrar datos, agrupar y resumir información, combinar tablas, manejar valores nulos y expoortar o importar datos.
+
 ## 1. Filtros
+
+> **¿Para qué sirve?**
+> Seleccionar filas según condiciones, por ejemplo, extraer datos relevantes de una tabla grande.
 
 ```python
 import pandas as pd
@@ -31,6 +38,9 @@ print(df[df['B'] == 'x'])
 
 ## 2. Agrupación y resumen (`groupby`)
 
+> **¿Para qué sirve?**
+> Agrupar datos por categorías y calcular sumas, promedios u otras estadísticas dentro de cada grupo.
+
 ```python
 # Agrupar por columna B y calcular promedio de A
 grouped = df.groupby('B')['A'].mean()
@@ -41,10 +51,14 @@ print(grouped)
 # y    3.0
 # Name: A, dtype: float64
 ```
+Tambíen se pueden usar otras funciones como `sum()`, `count`, `max`, etc.
 
 ---
 
 ## 3. Unir DataFrames (`merge` / `join`)
+
+> **¿Para qué sirve?**
+> Combinar información de dos tablas según una columna común (como clave).
 
 ```python
 df1 = pd.DataFrame({'key': ['a', 'b', 'c'], 'value1': [1, 2, 3]})
@@ -63,7 +77,10 @@ print(merged)
 
 ---
 
-## 3. Manejo de valores nulos
+## 4. Manejo de valores nulos
+
+> **¿Para qué sirve?**
+> Identificar, eliminar o reemplazar datos faltantes para evitar errores en el análisis.
 
 ```python
 # Detectar valores nulos
@@ -80,6 +97,9 @@ print(df.fillna(0))
 
 ## 5. Exportación e importación de datos
 
+> **¿Para qué sirve?**
+> Guardar resultados en archivos o cargar datos externos para análisis.
+
 ```python
 # Exportar a CSV
 df.to_csv('mi_dataframe.csv', index=False)
@@ -88,6 +108,8 @@ df.to_csv('mi_dataframe.csv', index=False)
 nuevo_df = pd.read_csv('mi_dataframe.csv')
 print(nuevo_df)
 ```
+
+Pandas también soporta otros formatos como Excel (`.xlsx`), JSON, HTML, SQL, entre otros.
 
 ---
 
