@@ -529,4 +529,3 @@ Pandas también soporta otros formatos como Excel (`.xlsx`), JSON, HTML, SQL, en
 - Pandas documentation — pandas 2.3.2 documentation. (s/f). Pydata.org. Recuperado el 26 de agosto de 2025, de https://pandas.pydata.org/docs
 - Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/139UHZ81kjxan6cPhKPKgZy_Rh65u0_ry?usp=sharing [Ejercicios]
 - [Ejecuciones propias en Google Colab] Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/1KWDloVh-9NaxnYSaT6gerGY-0bkwldqs?usp=sharing
-
