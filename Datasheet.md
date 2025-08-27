@@ -1,6 +1,8 @@
 # NumPy – Operaciones estadísticas y funciones avanzadas
 
+## Introducción
 
+NumPy no solo sirve para crear arrays y hacer operaciones básicas, también incluye muchas funciones estadísticas, de generación de datos y de álgebra lineal. Estas funciones son esenciales para análisis de datos y cálculos científicos, ya que permiten obtener información resumida, generar datos sintéticos y resolver problemas matemáticos complejos de forma eficiente.
 
 ## 1. Operaciones estadísticas básicas
 
@@ -26,7 +28,7 @@ mat = np.array([[1, 2], [3, 4]])
 print(np.mean(mat, axis=0))  # Promedio por columna: [2. 3.]
 print(np.mean(mat, axis=1))  # Promedio por fila: [1.5 3.5]
 ```
-
+![alt text](image.png)
 ---
 
 ## 2. Generación de datos: `arange`, `linspace`, `random`
@@ -44,6 +46,7 @@ print(a)  # [0 2 4 6 8]
 b = np.linspace(0, 1, 5)
 print(b)  # [0.   0.25 0.5  0.75 1.  ]
 ```
+![alt text](image-1.png)
 
 ### Datos aleatorios con `random`
 
@@ -63,6 +66,7 @@ print(rand_int)
 # [[8 0]
 #  [2 6]]
 ```
+![alt text](image-2.png)
 
 ---
 
@@ -83,6 +87,7 @@ print(prod)
 # [[4  4]
 #  [10 8]]
 ```
+![alt text](image-3.png)
 
 Desde Python 3.5 también se puede usar el operador `@` para multiplicación de matrices:
 
@@ -90,6 +95,7 @@ Desde Python 3.5 también se puede usar el operador `@` para multiplicación de 
 print(A @ B)
 # Mismo resultado que np.dot
 ```
+![alt text](image-4.png)
 
 ### Transpuesta y determinante
 
@@ -97,6 +103,7 @@ print(A @ B)
 print(A.T)            # Transpuesta
 print(np.linalg.det(A)) # Determinante: -2.0
 ```
+![alt text](image-5.png)
 
 ### Inversa de una matriz
 
@@ -107,6 +114,7 @@ print(invA)
 # [[-2.   1. ]
 #  [ 1.5 -0.5]]
 ```
+![alt text](image-6.png)
 
 ### Solución de sistemas lineales
 
@@ -117,6 +125,7 @@ x = np.linalg.solve(A, b)
 print(x)
 # Resultado: [ -4.  4.5 ]
 ```
+![alt text](image-7.png)
 
 ---
 
