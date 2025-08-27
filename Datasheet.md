@@ -274,7 +274,8 @@ Pandas es la biblioteca más utilizada para manejo y análisis de datos en Pytho
 
 ## 1. Crear DataFrames y Series
 
-
+> **¿Para qué sirve?**
+> Los DataFrames son como hojas de cálculo o tablas, y las Series son como una columna individual con etiquetas.
 
 ## Crear un DataFrame desde un diccionario o lista
 
@@ -314,7 +315,8 @@ print(s)
 
 ## 2. Cargar datos desde archivo
 
-
+> **¿Para qué sirve?**
+> Pandas puede leer datos directamente de archivos CSV, Excel, SQL, etc.
 
 ```python
 # Leer CSV
@@ -330,7 +332,8 @@ print(df_excel.head())
 
 ## 3. Selección de columnas y filas
 
-
+> **¿Para qué sirve?**
+> Permite acceder y manipular partes específicas del DataFrame para análisis o transformación
 
 ## Seleccionar columnas
 
@@ -371,7 +374,8 @@ print(df[df['A'] > 1])
 
 ## 4. Tipos de datos y conversión
 
-
+> **¿Para qué sirve?**
+> Es importante conocer y convertir los tipos de datos para evitar errores y para aplicar funciones correctamente.
 
 ```python
 print(df.dtypes) # Ver tipo de cada columna
