@@ -32,7 +32,6 @@ print(a2)
 # [[1 2]
 #  [3 4]]
 ```
-![alt text](image.png)
 
 ### Con funciones de NumPy
 
@@ -55,7 +54,6 @@ print(ones)
 # [[1. 1. 1.]
 #  [1. 1. 1.]]
 ```
-![alt text](image-1.png)
 
 ---
 
@@ -72,8 +70,6 @@ print(reshaped)
 # [[0 1 2]
 #  [3 4 5]]
 ```
-![alt text](image-2.png)
-
 ---
 
 ## 3. Concatenar arrays
@@ -113,7 +109,6 @@ xy = np.concatenate([x, y])
 print(xy)
 # Resultado: [1 2 3 4 5 6]
 ```
-![alt text](image-3.png)
 ---
 
 ## 4. Operaciones básicas con arrays
@@ -147,7 +142,6 @@ b = np.array([10, 20, 30])
 print(a + b)        # [11 22 33]
 print(a * b)        # [10 40 90]
 ```
-![alt text](image-4.png)
 ---
 
 ## Fuentes
