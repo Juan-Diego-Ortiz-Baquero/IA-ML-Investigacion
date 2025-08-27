@@ -24,6 +24,8 @@ import numpy as np
 a1 = np.array([1, 2, 3, 4])
 print(a1)
 # Resultado: [1 2 3 4]
+<img width="812" height="256" alt="image" src="https://github.com/user-attachments/assets/2c1ff9ac-a268-4cab-bb30-93579564f550" />
+
 
 # Array de dos dimensiones (2D)
 a2 = np.array([[1, 2], [3, 4]])
@@ -31,6 +33,8 @@ print(a2)
 # Resultado:
 # [[1 2]
 #  [3 4]]
+<img width="317" height="152" alt="image" src="https://github.com/user-attachments/assets/99a5ee00-5e19-442d-899d-9a99b20ef52c" />
+
 ```
 
 ### Con funciones de NumPy
@@ -42,6 +46,8 @@ NumPy ofrece varias funciones para crear arrays rápidamente, ideales para prueb
 arr = np.arange(0, 6)
 print(arr)
 # Resultado: [0 1 2 3 4 5]
+<img width="970" height="235" alt="image" src="https://github.com/user-attachments/assets/255fa421-b705-4291-b295-12c1930dc966" />
+
 
 # zeros y ones
 zeros = np.zeros((2, 3))
@@ -53,6 +59,8 @@ print(ones)
 #  [0. 0. 0.]]
 # [[1. 1. 1.]
 #  [1. 1. 1.]]
+<img width="279" height="204" alt="image" src="https://github.com/user-attachments/assets/c3dc5a73-4814-4192-a7b1-4c565c0b7499" />
+
 ```
 
 ---
@@ -69,6 +77,8 @@ print(reshaped)
 # Resultado:
 # [[0 1 2]
 #  [3 4 5]]
+<img width="352" height="179" alt="image" src="https://github.com/user-attachments/assets/7ac09b51-d67a-426e-8cd2-ff94beca8d4e" />
+
 ```
 
 ---
@@ -91,6 +101,8 @@ print(v_concat)
 # [[1 2]
 #  [3 4]
 #  [5 6]]
+<img width="407" height="307" alt="image" src="https://github.com/user-attachments/assets/71bb0724-65c7-416d-8991-b052a740c4db" />
+
 
 # Horizontal (añadir columnas)
 c = np.array([[7], [8], [9]])
@@ -100,6 +112,8 @@ print(h_concat)
 # [[1 2 7]
 #  [3 4 8]
 #  [5 6 9]]
+<img width="329" height="169" alt="image" src="https://github.com/user-attachments/assets/c41ea887-1dd4-43c5-8a87-21dea7480c22" />
+
 ```
 
 Para arrays 1D, se puede usar `concatenate`:
@@ -110,6 +124,8 @@ y = np.array([4, 5, 6])
 xy = np.concatenate([x, y])
 print(xy)
 # Resultado: [1 2 3 4 5 6]
+<img width="274" height="132" alt="image" src="https://github.com/user-attachments/assets/d07bcd90-05b9-46e2-9b81-ab17c9bda19f" />
+
 ```
 
 ---
@@ -135,6 +151,8 @@ print(arr / 2)      # [1. 2. 3. 4.]
 # Potencias y raíz
 print(arr ** 2)     # [ 4 16 36 64]
 print(np.sqrt(arr)) # [1.41421356 2.         2.44948974 2.82842712]
+<img width="434" height="457" alt="image" src="https://github.com/user-attachments/assets/0bb7d45d-bb92-4f6d-ac79-c8a904ae53d3" />
+
 ```
 
 Operaciones entre arrays:
@@ -144,6 +162,8 @@ a = np.array([1, 2, 3])
 b = np.array([10, 20, 30])
 print(a + b)        # [11 22 33]
 print(a * b)        # [10 40 90]
+<img width="272" height="195" alt="image" src="https://github.com/user-attachments/assets/49bce93b-616d-43a3-a8eb-57292b441ce3" />
+
 ```
 ---
 
@@ -167,6 +187,8 @@ arr = np.array([1, 2, 3, 4, 5])
 print(np.mean(arr))  # Promedio: 3.0
 print(np.std(arr))   # Desviación estándar: 1.41421...
 print(np.sum(arr))   # Suma: 15
+<img width="701" height="372" alt="image" src="https://github.com/user-attachments/assets/d2b5cd9d-aeae-4cc0-83a7-2d690ad146e0" />
+
 ```
 
 Para arrays multidimensionales, se puede especificar el eje (`axis`) sobre el cual calcular:
@@ -176,6 +198,8 @@ mat = np.array([[1, 2], [3, 4]])
 
 print(np.mean(mat, axis=0))  # Promedio por columna: [2. 3.]
 print(np.mean(mat, axis=1))  # Promedio por fila: [1.5 3.5]
+<img width="648" height="198" alt="image" src="https://github.com/user-attachments/assets/2b2f82c4-3409-4f7e-bd8a-a6f30fc13946" />
+
 ```
 
 ---
@@ -194,6 +218,8 @@ print(a)  # [0 2 4 6 8]
 # linspace: números equiespaciados entre dos valores
 b = np.linspace(0, 1, 5)
 print(b)  # [0.   0.25 0.5  0.75 1.  ]
+<img width="601" height="350" alt="image" src="https://github.com/user-attachments/assets/eac48384-50fc-4c61-ae4e-24031c9caa6f" />
+
 ```
 
 ### Datos aleatorios con `random`
@@ -211,8 +237,11 @@ print(rand_arr)  # [0.77395605 0.43887844 0.85859792]
 rand_int = rng.integers(0, 10, size=(2, 2))
 print(rand_int)
 # Resultado:
-# [[8 0]
-#  [2 6]]
+# [[0 6]
+#  [2 0]]
+<img width="700" height="366" alt="image" src="https://github.com/user-attachments/assets/26b492b3-b9ed-44a5-ae2c-53ef7c65ef54" />
+
+
 ```
 
 ---
@@ -233,6 +262,8 @@ print(prod)
 # Resultado:
 # [[4  4]
 #  [10 8]]
+<img width="743" height="326" alt="image" src="https://github.com/user-attachments/assets/b24fc293-76d3-4010-8d1a-670c391ca848" />
+
 ```
 
 Desde Python 3.5 también se puede usar el operador `@` para multiplicación de matrices:
@@ -240,6 +271,8 @@ Desde Python 3.5 también se puede usar el operador `@` para multiplicación de 
 ```python
 print(A @ B)
 # Mismo resultado que np.dot
+<img width="651" height="173" alt="image" src="https://github.com/user-attachments/assets/7e88fc1d-b411-45a2-a245-6e69e962ff90" />
+
 ```
 
 ### Transpuesta y determinante
@@ -247,6 +280,8 @@ print(A @ B)
 ```python
 print(A.T)            # Transpuesta
 print(np.linalg.det(A)) # Determinante: -2.0
+<img width="307" height="180" alt="image" src="https://github.com/user-attachments/assets/05cc21b4-7a9d-475c-bed9-6e6a3f73ebab" />
+
 ```
 
 ### Inversa de una matriz
@@ -257,6 +292,8 @@ print(invA)
 # Resultado:
 # [[-2.   1. ]
 #  [ 1.5 -0.5]]
+<img width="249" height="153" alt="image" src="https://github.com/user-attachments/assets/0de095b1-b45b-4862-b502-242b26b5ce99" />
+
 ```
 
 ### Solución de sistemas lineales
@@ -267,6 +304,8 @@ b = np.array([5, 6])
 x = np.linalg.solve(A, b)
 print(x)
 # Resultado: [ -4.  4.5 ]
+<img width="331" height="185" alt="image" src="https://github.com/user-attachments/assets/6da547ae-78cc-42b8-a0fb-c9b059247bf2" />
+
 ```
 
 
@@ -298,6 +337,8 @@ print(df)
 # 0  1  a
 # 1  2  b
 # 2  3  c
+<img width="532" height="326" alt="image" src="https://github.com/user-attachments/assets/8a2e7eea-18c4-49b7-9016-9f45debd2204" />
+
 
 # Desde lista de listas
 df2 = pd.DataFrame([[10, 20], [30, 40]], columns=['X', 'Y'])
@@ -306,6 +347,8 @@ print(df2)
 #     X   Y
 # 0  10  20
 # 1  30  40
+<img width="535" height="154" alt="image" src="https://github.com/user-attachments/assets/a832bd59-45ef-48ea-be49-1ce87f5876d2" />
+
 ```
 
 ### Crear una Series
@@ -317,6 +360,8 @@ print(s)
 # b   7 
 # c   9
 # dtype: int64
+<img width="438" height="195" alt="image" src="https://github.com/user-attachments/assets/be5b6649-e821-435c-8d92-08799fc6e423" />
+
 ```
 
 ---
@@ -334,6 +379,8 @@ print(df.head()) #Ver las primeras filas
 # Leer Excel
 df_excel = pd.read_excel('archivo.xlsx')
 print(df_excel.head())
+<img width="442" height="262" alt="image" src="https://github.com/user-attachments/assets/feced9a6-b5e1-41f1-a8bd-d0f1046b3cfc" />
+
 ```
 
 ---
@@ -348,9 +395,13 @@ print(df_excel.head())
 ```python
 # Una Columna
 print(df['A'])
+<img width="392" height="259" alt="image" src="https://github.com/user-attachments/assets/5bdbd0f3-4910-4378-8de0-5d0d2b278a62" />
+
 
 # Varias Columnas
 print(df[['A', 'B']])
+<img width="215" height="149" alt="image" src="https://github.com/user-attachments/assets/0c76b8ef-e77b-4fa3-90f2-27b685adae96" />
+
 ```
 
 ### Seleccionar filas (por índice, posición o condición)
@@ -362,6 +413,8 @@ print(df.iloc[0])
 # A    1
 # B    a
 # Name: 0, dtype: object
+<img width="498" height="177" alt="image" src="https://github.com/user-attachments/assets/53a8f803-3b19-46b6-b29b-dcd2ec66b5b6" />
+
 
 # Fila por etiqueta (Si hay índices personalizados)
 print(df.iloc[0])
@@ -369,6 +422,8 @@ print(df.iloc[0])
 # A    1
 # B    a
 # Name: 0, dtype: object
+<img width="461" height="134" alt="image" src="https://github.com/user-attachments/assets/7e703ede-0265-48aa-bbb2-8b7a336c2c26" />
+
 
 # Filas por condición
 print(df[df['A'] > 1])
@@ -376,6 +431,8 @@ print(df[df['A'] > 1])
 #    A  B
 # 1  2  b
 # 2  3  c
+<img width="258" height="141" alt="image" src="https://github.com/user-attachments/assets/006460b8-cac9-471e-85b9-e1353d144823" />
+
 ```
 
 ---
@@ -391,6 +448,8 @@ print(df.dtypes) # Ver tipo de cada columna
 # A     int64
 # B    object
 # dtype: object
+<img width="397" height="169" alt="image" src="https://github.com/user-attachments/assets/a4196cd8-c2b7-4726-bc4b-2404c48aaf09" />
+
 
 # Covertir tipo de columna
 df['A'] = df['A'].astype(float)
@@ -399,6 +458,8 @@ print(df.dtypes)
 # A    float64
 # B     object
 # dtype: object
+<img width="310" height="149" alt="image" src="https://github.com/user-attachments/assets/81d5f8a6-2f73-4c8d-b2dd-acd84dc604ba" />
+
 ```
 ---
 
@@ -436,6 +497,8 @@ print(df[df['B'] == 'x'])
 # 0  1  x
 # 2  3  x
 # 4  5  x
+<img width="334" height="453" alt="image" src="https://github.com/user-attachments/assets/fdc775e4-deda-4536-adbe-010a2d51a528" />
+
 ```
 
 ---
@@ -454,6 +517,8 @@ print(grouped)
 # x    3.0
 # y    3.0
 # Name: A, dtype: float64
+<img width="420" height="221" alt="image" src="https://github.com/user-attachments/assets/f6626d8a-9fc2-42b6-a8a8-8227663f7aec" />
+
 ```
 Tambíen se pueden usar otras funciones como `sum()`, `count`, `max`, etc.
 
@@ -477,6 +542,8 @@ print(merged)
 # 1   b     2.0     5.0
 # 2   c     3.0     NaN
 # 3   d     NaN     6.0
+<img width="562" height="278" alt="image" src="https://github.com/user-attachments/assets/f2e0e3e1-04bf-40dd-9844-71f4f7a83b04" />
+
 ```
 
 ---
