@@ -264,8 +264,134 @@ x = np.linalg.solve(A, b)
 print(x)
 # Resultado: [ -4.  4.5 ]
 ```
-## Fuentes
+# Pandas - Creación y manipulación de DataFrames y Series
 
+## Introducción
+
+Pandas es la biblioteca más utilizada para manejo y análisis de datos en Python. Sus dos estructuras principales son `DataFrames` (tabla de datos) y `Series` archivos, seleccionar columnas y filas, y trabajar fácilmente con diferentes tipos de datos.
+
+---
+
+## 1. Crear DataFrames y Series
+
+
+
+## Crear un DataFrame desde un diccionario o lista
+
+```python
+import pandas as pd
+
+# Desde diccionario
+df = pd.DataFrame({'A': [1, 2, 3], 'B': ['a', 'b', 'c']})
+print(df)
+# Resultado:
+#    A  B
+# 0  1  a
+# 1  2  b
+# 2  3  c
+
+# Desde lista de listas
+df2 = pd.DataFrame([[10, 20], [30, 40]], columns=['X', 'Y'])
+print(df2)
+# Resultado:
+#     X   Y
+# 0  10  20
+# 1  30  40
+```
+
+### Crear una Series
+```python
+s = pd.Series([4, 7, 9], index =['a', 'b', 'c'])
+print(s)
+# Resultado:
+# a   4
+# b   7 
+# c   9
+# dtype: int64
+```
+
+---
+
+## 2. Cargar datos desde archivo
+
+
+
+```python
+# Leer CSV
+df = pd.read_csv('archivo.csv')
+print(df.head()) #Ver las primeras filas
+
+# Leer Excel
+df_excel = pd.read_excel('archivo.xlsx')
+print(df_excel.head())
+```
+
+---
+
+## 3. Selección de columnas y filas
+
+
+
+## Seleccionar columnas
+
+```python
+# Una Columna
+print(df['A'])
+
+# Varias Columnas
+print(df[['A', 'B']])
+```
+
+### Seleccionar filas (por índice, posición o condición)
+
+```python
+# Primera fila por posición
+print(df.iloc[0])
+# Resultado
+# A    1
+# B    a
+# Name: 0, dtype: object
+
+# Fila por etiqueta (Si hay índices personalizados)
+print(df.iloc[0])
+# Resultado
+# A    1
+# B    a
+# Name: 0, dtype: object
+
+# Filas por condición
+print(df[df['A'] > 1])
+# Resultado
+#    A  B
+# 1  2  b
+# 2  3  c
+```
+
+---
+
+## 4. Tipos de datos y conversión
+
+
+
+```python
+print(df.dtypes) # Ver tipo de cada columna
+# Resultado
+# A     int64
+# B    object
+# dtype: object
+
+# Covertir tipo de columna
+df['A'] = df['A'].astype(float)
+print(df.dtypes)
+# Resultado
+# A    float64
+# B     object
+# dtype: object
+```
+
+---
+
+## Fuentes
 
 - Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/1N8QNpHXhRpXT9cR7vjnGT1Z9xvYeEERU?usp=sharing
 - Linear algebra — NumPy v2.3 manual. (s/f). Numpy.org. Recuperado el 26 de agosto de 2025, de https://numpy.org/doc/stable/reference/routines.linalg.html
@@ -274,4 +400,5 @@ print(x)
 - Array creation — NumPy v2.3 manual. (s/f). Numpy.org. Recuperado el 26 de agosto de 2025, de https://numpy.org/doc/stable/user/basics.creation.html
 - Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/1y9wOg9nnFlTXrY3lGtamlAhoPrmmGye0?authuser=1 [Ejecuciones propias en Google Colab] 
 - Sherrill, D. [@CodeWithDerrick]. (s/f). Introduction to NumPy arrays for beginners - learn NumPy series [[Object Object]]. Youtube. Recuperado el 26 de agosto de 2025, de https://www.youtube.com/watch?v=9fcTq8PDWWA
-
+- Pandas documentation — pandas 2.3.2 documentation. (s/f). Pydata.org. Recuperado el 26 de agosto de 2025, de https://pandas.pydata.org/docs
+- Google colab. (s/f). Google.com. Recuperado el 26 de agosto de 2025, de https://colab.research.google.com/drive/139UHZ81kjxan6cPhKPKgZy_Rh65u0_ry?usp=sharing [Ejercicios]
